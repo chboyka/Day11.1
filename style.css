@@ -1,0 +1,19 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition:margin 0.1s linear;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition:margin 0.1s linear;
+    margin-top: 100px;
+    margin-left: 1000px;
+    position: absolute;
+}
