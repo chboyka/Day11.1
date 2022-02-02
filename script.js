@@ -16,6 +16,7 @@ function moveRight(element){
         clearInterval(moveCircle);
         move = 0;
         moveCircle = 0
+        circle.style.display = "none";
     }
 }
 function moveLeft(element){
@@ -28,6 +29,7 @@ function moveLeft(element){
         clearInterval(moveCircle);
         move = 0;
         moveCircle = 0
+        circle.style.display = "none";
     }
 }
 function moveUp(){
